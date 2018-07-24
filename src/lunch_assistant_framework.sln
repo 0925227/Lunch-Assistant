@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webportal", "webportal\webportal.csproj", "{C82A475B-D6DA-4297-A875-028EE6D0FAC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aws_speech", "aws_speech\aws_speech.csproj", "{5A651C35-8906-4CFC-89C0-22EDD9F95743}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C82A475B-D6DA-4297-A875-028EE6D0FAC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82A475B-D6DA-4297-A875-028EE6D0FAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82A475B-D6DA-4297-A875-028EE6D0FAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82A475B-D6DA-4297-A875-028EE6D0FAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A651C35-8906-4CFC-89C0-22EDD9F95743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A651C35-8906-4CFC-89C0-22EDD9F95743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A651C35-8906-4CFC-89C0-22EDD9F95743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A651C35-8906-4CFC-89C0-22EDD9F95743}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2189FDF2-6A12-41B0-AD1D-D7B16C7B3984}
+	EndGlobalSection
+EndGlobal

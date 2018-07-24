@@ -1,0 +1,19 @@
+﻿@model NeuralNetworkIndexViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<form id="labnol" class="form" method="post" action="ProcessOrder">
+    <div class="speech">
+        <input asp-for="SandwichInputIngredients" class="form-control"  />
+        @*<input type="text" name="q" id="transcript" placeholder="Speak" />*@
+        <img onclick="startDictation()" src="//i.imgur.com/cHidSVu.gif" />
+
+    </div>
+</form>
+
+@if(ViewBag.Order != null)
+{
+    <p>@ViewBag.Order</p>
+
+}

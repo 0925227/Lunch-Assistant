@@ -1,0 +1,43 @@
+﻿@model PortalIndexViewModel
+@using Microsoft.AspNetCore.Identity
+@using webportal.Models
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+@if (SignInManager.IsSignedIn(User))
+{
+<p class="text-center">
+    <a class="btn btn-sm btn-outline-primary" href="NeuralNetwork/Index">Bestelling</a>
+    <a class="btn btn-sm btn-outline-primary" asp-controller="Home" asp-action="Stock">Voorraad</a>
+    <a class="btn btn-sm btn-outline-primary" asp-controller="NeuralNetwork" asp-action="Suggestion">Suggestie</a>
+    <a class="btn btn-sm btn-outline-primary" href="NeuralNetwork/Index">Profiel</a>
+</p>
+}
+
+<h2>Bestellingen</h2>
+
+<table class="table table-hover table">
+    <thead class="thead-light">
+        <tr>
+            <th>E-mail</th>
+            <th>Bestelling</th>
+            <th>Tijd</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.items)
+        {
+            <tr>
+                <td>@item.Email</td>
+                <td>@item.OrderLine</td>
+                <td>@item.DateTime</td>
+            </tr>
+        }
+    </tbody>
+</table>

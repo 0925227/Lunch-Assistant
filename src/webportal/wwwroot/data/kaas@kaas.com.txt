@@ -1,0 +1,259 @@
+{
+  "LearnRate": 0.4,
+  "Momentum": 0.9,
+  "InputLayer": [
+    {
+      "Id": "8a53f3de-bb26-4dd1-b4fe-f1a256865c73",
+      "Bias": -0.95665399169393539,
+      "BiasDelta": 0.0,
+      "Gradient": 0.0,
+      "Value": 0.0
+    },
+    {
+      "Id": "02fa0a38-5c6c-4b91-a1f8-eeec0422a844",
+      "Bias": -0.6568760423254576,
+      "BiasDelta": 0.0,
+      "Gradient": 0.0,
+      "Value": 0.0
+    },
+    {
+      "Id": "73eee5cf-1d1e-467f-b7cc-58c322c62ffb",
+      "Bias": -0.74011087778029538,
+      "BiasDelta": 0.0,
+      "Gradient": 0.0,
+      "Value": 0.0
+    },
+    {
+      "Id": "6edf9868-0536-41df-957f-20be5b3e08ee",
+      "Bias": 0.4785989473939869,
+      "BiasDelta": 0.0,
+      "Gradient": 0.0,
+      "Value": 0.0
+    },
+    {
+      "Id": "bc788606-aa5e-4d06-8a0e-87e747d2196e",
+      "Bias": 0.16454528140115787,
+      "BiasDelta": 0.0,
+      "Gradient": 0.0,
+      "Value": 0.0
+    },
+    {
+      "Id": "af4d7696-bf94-41b3-b927-50b6c7879f73",
+      "Bias": -0.58227401859232875,
+      "BiasDelta": 0.0,
+      "Gradient": 0.0,
+      "Value": 0.0
+    },
+    {
+      "Id": "27da15ff-a450-4e93-a836-4e0319c5998f",
+      "Bias": -0.87382901547189284,
+      "BiasDelta": 0.0,
+      "Gradient": 0.0,
+      "Value": 0.0
+    },
+    {
+      "Id": "63e0c962-af99-45f5-99c0-1ab57fd83402",
+      "Bias": 0.55621110068457713,
+      "BiasDelta": 0.0,
+      "Gradient": 0.0,
+      "Value": 0.0
+    },
+    {
+      "Id": "dea6e030-3941-4f81-911c-c40906dacacd",
+      "Bias": -0.96547981070609756,
+      "BiasDelta": 0.0,
+      "Gradient": 0.0,
+      "Value": 0.0
+    },
+    {
+      "Id": "4e44f46a-58ae-432f-af02-33ce77cf9138",
+      "Bias": 0.6884119388127754,
+      "BiasDelta": 0.0,
+      "Gradient": 0.0,
+      "Value": 0.0
+    }
+  ],
+  "HiddenLayers": [
+    [
+      {
+        "Id": "5575bdc1-1006-442d-9fa6-ac2046c7127d",
+        "Bias": -0.49394487566032674,
+        "BiasDelta": 0.0,
+        "Gradient": 0.0,
+        "Value": 0.0
+      },
+      {
+        "Id": "fd1d5090-b915-410c-b073-759f0051b794",
+        "Bias": 0.25623857381578463,
+        "BiasDelta": 0.0,
+        "Gradient": 0.0,
+        "Value": 0.0
+      }
+    ]
+  ],
+  "OutputLayer": [
+    {
+      "Id": "4410751c-f160-4499-b959-f7e4fd9e6307",
+      "Bias": -0.3365387596825784,
+      "BiasDelta": 0.0,
+      "Gradient": 0.0,
+      "Value": 0.0
+    }
+  ],
+  "Synapses": [
+    {
+      "Id": "b7e7943e-87d6-4335-b471-8fb8662834ef",
+      "OutputNeuronId": "5575bdc1-1006-442d-9fa6-ac2046c7127d",
+      "InputNeuronId": "8a53f3de-bb26-4dd1-b4fe-f1a256865c73",
+      "Weight": 0.62134441436331,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "461af412-edd3-4242-abc3-42cc704fadcd",
+      "OutputNeuronId": "fd1d5090-b915-410c-b073-759f0051b794",
+      "InputNeuronId": "8a53f3de-bb26-4dd1-b4fe-f1a256865c73",
+      "Weight": -0.21935105846233249,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "3802a945-00d0-4b23-865a-02dbe49c79ff",
+      "OutputNeuronId": "5575bdc1-1006-442d-9fa6-ac2046c7127d",
+      "InputNeuronId": "02fa0a38-5c6c-4b91-a1f8-eeec0422a844",
+      "Weight": -0.54749991258024233,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "4be37ab0-af77-49e1-8a14-7e9f570f9aef",
+      "OutputNeuronId": "fd1d5090-b915-410c-b073-759f0051b794",
+      "InputNeuronId": "02fa0a38-5c6c-4b91-a1f8-eeec0422a844",
+      "Weight": -0.028426501447533448,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "1f4c3c09-39f5-4a45-86f4-dd97a0a49478",
+      "OutputNeuronId": "5575bdc1-1006-442d-9fa6-ac2046c7127d",
+      "InputNeuronId": "73eee5cf-1d1e-467f-b7cc-58c322c62ffb",
+      "Weight": 0.89615288278840155,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "d9ce5b36-106b-45aa-a464-68c9d95f7d51",
+      "OutputNeuronId": "fd1d5090-b915-410c-b073-759f0051b794",
+      "InputNeuronId": "73eee5cf-1d1e-467f-b7cc-58c322c62ffb",
+      "Weight": -0.824667371727837,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "73d028d6-977a-49ae-9d5c-604e88020e41",
+      "OutputNeuronId": "5575bdc1-1006-442d-9fa6-ac2046c7127d",
+      "InputNeuronId": "6edf9868-0536-41df-957f-20be5b3e08ee",
+      "Weight": 0.64063282014831557,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "d4526944-e032-4ab0-84bf-a60e677151db",
+      "OutputNeuronId": "fd1d5090-b915-410c-b073-759f0051b794",
+      "InputNeuronId": "6edf9868-0536-41df-957f-20be5b3e08ee",
+      "Weight": 0.75046837597641547,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "b65d7770-7d0d-4661-ae96-688f1399c0fd",
+      "OutputNeuronId": "5575bdc1-1006-442d-9fa6-ac2046c7127d",
+      "InputNeuronId": "bc788606-aa5e-4d06-8a0e-87e747d2196e",
+      "Weight": -0.21486861874110463,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "36be4ba1-bea5-473a-b390-ab1ea88c8815",
+      "OutputNeuronId": "fd1d5090-b915-410c-b073-759f0051b794",
+      "InputNeuronId": "bc788606-aa5e-4d06-8a0e-87e747d2196e",
+      "Weight": 0.22724049036728244,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "41655272-8938-432e-ae7e-0bf17a923acc",
+      "OutputNeuronId": "5575bdc1-1006-442d-9fa6-ac2046c7127d",
+      "InputNeuronId": "af4d7696-bf94-41b3-b927-50b6c7879f73",
+      "Weight": 0.36485305771457632,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "65bdbeef-3ae0-498a-b54e-347f00ffceea",
+      "OutputNeuronId": "fd1d5090-b915-410c-b073-759f0051b794",
+      "InputNeuronId": "af4d7696-bf94-41b3-b927-50b6c7879f73",
+      "Weight": 0.83087715498678261,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "bf3de6c7-b56c-4e17-852c-888e9d27c59a",
+      "OutputNeuronId": "5575bdc1-1006-442d-9fa6-ac2046c7127d",
+      "InputNeuronId": "27da15ff-a450-4e93-a836-4e0319c5998f",
+      "Weight": -0.43499570779269359,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "bbb62820-335c-4fc3-9e5f-8536da33e0d0",
+      "OutputNeuronId": "fd1d5090-b915-410c-b073-759f0051b794",
+      "InputNeuronId": "27da15ff-a450-4e93-a836-4e0319c5998f",
+      "Weight": -0.99246647487975026,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "c5cfe305-8e80-4115-8e2e-1f7de08cae79",
+      "OutputNeuronId": "5575bdc1-1006-442d-9fa6-ac2046c7127d",
+      "InputNeuronId": "63e0c962-af99-45f5-99c0-1ab57fd83402",
+      "Weight": -0.022852369129123362,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "8a09b04b-4296-427c-9013-15ede877e0a2",
+      "OutputNeuronId": "fd1d5090-b915-410c-b073-759f0051b794",
+      "InputNeuronId": "63e0c962-af99-45f5-99c0-1ab57fd83402",
+      "Weight": 0.29727143389045785,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "6299f444-c63b-44a1-aaa8-88759c8824e4",
+      "OutputNeuronId": "5575bdc1-1006-442d-9fa6-ac2046c7127d",
+      "InputNeuronId": "dea6e030-3941-4f81-911c-c40906dacacd",
+      "Weight": -0.12166416045355799,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "87184778-c2aa-4031-a72a-c61fa58d2a39",
+      "OutputNeuronId": "fd1d5090-b915-410c-b073-759f0051b794",
+      "InputNeuronId": "dea6e030-3941-4f81-911c-c40906dacacd",
+      "Weight": -0.092618561858599291,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "55ec45d3-232a-43e3-aefb-558f62d00541",
+      "OutputNeuronId": "5575bdc1-1006-442d-9fa6-ac2046c7127d",
+      "InputNeuronId": "4e44f46a-58ae-432f-af02-33ce77cf9138",
+      "Weight": -0.78309006047579,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "b49ceee4-67d7-488b-8060-6411a52a4f56",
+      "OutputNeuronId": "fd1d5090-b915-410c-b073-759f0051b794",
+      "InputNeuronId": "4e44f46a-58ae-432f-af02-33ce77cf9138",
+      "Weight": -0.17554012554490017,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "66fff651-8d4e-494b-ad5e-18e4b39a6e28",
+      "OutputNeuronId": "4410751c-f160-4499-b959-f7e4fd9e6307",
+      "InputNeuronId": "5575bdc1-1006-442d-9fa6-ac2046c7127d",
+      "Weight": 0.47449493197467874,
+      "WeightDelta": 0.0
+    },
+    {
+      "Id": "90d26302-a15d-41b9-94e3-f6b2bb3fab65",
+      "OutputNeuronId": "4410751c-f160-4499-b959-f7e4fd9e6307",
+      "InputNeuronId": "fd1d5090-b915-410c-b073-759f0051b794",
+      "Weight": 0.45394738365614207,
+      "WeightDelta": 0.0
+    }
+  ]
+}

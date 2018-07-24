@@ -1,0 +1,25 @@
+﻿@model SandwichIngredientItemViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+@*<form method="post">
+        @foreach (var item in Model)
+        {
+            <ul class="list-unstyled">
+                @Html.HiddenFor(@item.Name)
+                @Html.CheckBox(@item.Name, false)
+            </ul>
+        }
+        <button class="btn btn-sm btn-outline-primary" name="bestelbutton" value="" type="submit"
+                asp-action="Index">
+            Bestel
+        </button>
+    </form>*@
+
+@Html.HiddenFor(x => x.Name)
+<div>
+    @Html.CheckBoxFor(x => x.Checked)
+    @Html.LabelFor(x => x.Checked, Model.Name)
+</div>
